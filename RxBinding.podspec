@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxBinding'
-  s.version          = '0.5'
+  s.version          = '0.51'
   s.summary          = 'Simple data binding operators for RxSwift.'
 
 # This description is used to generate tags and improve search results.
@@ -28,6 +28,7 @@ RxBinding provodes '~>', '<~>' and '~' operators for data binding using RxSwift.
   s.social_media_url = 'https://fczm.site'
 
   s.ios.deployment_target = '10.0'
+  s.osx.deployment_target     = '10.12'
   s.swift_version = '5.1'
 
   s.source_files = 'Sources/RxBinding/**/*'
